@@ -1,15 +1,14 @@
-/* Styling form and resume sections */
-
+ 
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
     padding: 0;
-    background-color: white;
+    background-color: rgb(241, 255, 255);
 }
 
 form {
     margin: auto;
-    background-color: rgb(161, 230, 143);
+    background-color: rgb(204, 219, 235);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -18,15 +17,15 @@ form {
 
 h1 {
     text-align: center;
-    color: black;
+    color:  rgb(24, 48, 56);
 }
 
 fieldset {
-    border: 2px solid rgb(18, 70, 5);
+    border: 2px solid rgb(50, 106, 128);
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: rgb(179, 229, 182);
+    background-color: aliceblue;
 }
 
 legend {
@@ -54,8 +53,8 @@ input,textarea {
 button {
     display: block;
     width: 100%;
-    background-color: rgb(47, 160, 19);
-    color: black;
+    background-color: rgb(34, 110, 136);
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -67,7 +66,7 @@ button {
 }
 
 button :hover {
-    color: rgb(149, 206, 111);
+    color: rgb(0, 0, 0);
 }
 
 #resume-display {
@@ -78,10 +77,9 @@ button :hover {
     border-radius: 8px;
     background-color: rgb(228, 242, 255);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    /* resume editing */
     outline: none;
 }
 
 #resume-display h2 {
-    color: black;
+    color: rgb(24, 48, 56);
 }
